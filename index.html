@@ -3,31 +3,54 @@
 <head>
     <meta charset="utf-8" />
     <style>
-     .md
-        { 
-         text-align: center;
-         position: relative;/*定位*/
-         border: 10px solid white;
-         padding: 5px 50px 10px 5px;/* 内边距*/      
-        }
-    .md a
-         {
-          color: rgb(243, 24, 24);
-          display: block;/*超链接单独成行*/
-          margin:30px 150px 50px 150px ;/*设置所有外边距属性 上右下左*/
-          font-size: 50px;
-       
-         }
-      body{
-           background-color: black;
-          }                  
+         .z1 { 
+                margin: 0 auto;/*居中*/
+                width: 300px;
+                text-align: center;
+                font-size: 50px;
+                text-shadow: 2px 5px 5px #f460bd;/*水平阴影的位置。垂直阴影的位置。允许负值。模糊的距离。*/
+                color: rgb(24, 188, 230);
+                border-color: aliceblue;
+              }
+         body{
+                background-color: rgb(23, 2, 2);
+                text-align: center;
+             } 
+            p{
+                color: rgb(236, 18, 18);
+                font-size: 75px;
+                text-shadow: 0px 3px 6px rgb(214, 214, 112);
+             }
+             a:link{font-family: 楷体;color: rgb(24, 188, 230);} 
+             a:visited{font-family: 楷体;color: rgb(24, 188, 230);} 
+             a:hover{color: rgb(219, 23, 23);font-family: 楷体;}
+             a:active {font-family: 楷体;color: rgb(24, 188, 230); }                   
     </style>             
 </head>
 <body>      
-      <div class="md">
-         
-         <a href="2\05.html"target="_self" title="曾凌峰">20213598</a> 
-          
-     </div>   
+     <p>曾凌峰的主页</p> 
+     <table border="1" class="z1">
+        <tr>
+            <th>作业编号</th>
+        </tr>
+        <tr>
+            <td><a href="2\01.html"target="_self" title="曾凌峰">01</a></td>
+        </tr>
+        <tr>
+           <td><a href="2\02\02.html"target="_self" title="曾凌峰">02</a></td>
+       </tr>
+       <tr>
+           <td><a href="2\03.html"target="_self" title="曾凌峰">03</a></td>
+       </tr>
+       <tr>
+           <td><a href="2\04.html"target="_self" title="曾凌峰">04</a></td>
+       </tr>
+       <tr>
+           <td><a href="2\05.html"target="_self" title="曾凌峰">05</a></td>
+       </tr>
+       <tr>
+        <td><a href="2\06.html"target="_self" title="曾凌峰">06</a></td>
+    </tr>
+    </table>   
 </body>       
 </html>
